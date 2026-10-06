@@ -1,6 +1,5 @@
-
 body {
-    background-color: #22123A;
+background-color: #22123A;
 }
 
 /* img {
@@ -86,7 +85,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 35;
+    font-size: 35px;
 }
 #subtitle {
     text-align: center;
