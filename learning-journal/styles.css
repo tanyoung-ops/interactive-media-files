@@ -10,18 +10,13 @@ body {
 
 .banner {
 
-    min-width:1000px; 
+    min-width:800px; 
     display:flex; 
     justify-content: center;
     align-content: center;
     text-align: center;
-    padding:20px; 
-    margin:0px; 
-
-    
 
 }
-
 
 
 
@@ -31,22 +26,20 @@ body {
     flex-grow: 2; */
  margin: 10px;
      padding: 20px;
-     text-align: center;
      text-decoration: none;
      background-color: #75658E; 
      border-radius:10px; 
 
-     border-style:dotted; 
+     border-style:solid; 
      border-width:5px;
      border-color:rgb(216, 162, 197); 
 
 
-      display: grid;
-        grid-template-columns: 1fr 1fr;
+  
         max-width: 1200px;
         padding:40px; 
         margin: auto;
-        gap: 30px;
+        /* gap: 30px; */
     
 }
 /* .container div {
@@ -85,6 +78,7 @@ h1 {
 }
 
 h2 {
+   font-family: Special Elite;
     text-align: center;
     font-size: 35;
 }
@@ -93,46 +87,42 @@ h2 {
     color:#D3CDDE
 }
 
-body {
+p {
 
-    font-family:Special Elite;
-
-}
-
-
-
-
-
-  .thumbnail {
-    transition: transform 0.3s ease; 
-
-    
-}
-
-
-    .thumbnail:hover {
-        transform:scale(1.15);
-        cursor: pointer; 
-
+    font-family:Manrope;
+    font-size:16px; 
+    font-weight:400; 
+    text-align:left;
+    max-width: 50em;
+    line-height: 1.2em;
 
 }
+
+
+
+
+
+
+
 footer {
+
+    font-family:Special Elite; 
     text-align: center;
     display:block; 
+    padding-top:10px; 
         color: #D3CDDE; 
 
 }
-
 
 footer a {
+
+      font-family:Special Elite; 
     text-align: center;
+    font-size:16px;
     display:block; 
         color: #D3CDDE; 
 
 }
-
-
-
 
 /* NAV BAR */
 
@@ -177,8 +167,9 @@ display:inline;
 
 
   /* HOMEPAGE SECTIONS  */
-  .teaser:hover {
- background-color:rgb(216, 162, 197);   }
+  /* .teaser:hover {
+    background-color:rgb(240, 243, 242); 
+  } */
 
   .teaser {
 
@@ -215,23 +206,13 @@ header  {
 
 
 
-.button {
 
-     background-color: #22123A; 
-     color:white; 
-     border: solid; 
-     padding: 20px; 
-      display: inline-block; 
-      border-color:#22123A;
-      border-radius:20px; 
-      width:200px;
-      height:fit-content;
-      margin-top:20px; 
+time
+
+{
+
+    font-family: Special Elite;
+    text-align: center;
+    font-size: 15;
 }
 
-.button:hover {
-
-background-color:#D3CDDE; 
-border-color:#D3CDDE;
-color:#22123A; 
-}
