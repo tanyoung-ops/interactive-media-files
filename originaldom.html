@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Javascript and the DOM </h1>
+    <p id="one"> here is some text</p>
+    <p class="funky"> Another Paragraph </p> 
+    <p class="funky"> this one wont be orange</p>
+
+    
+<script> 
+
+// query selector only applies to the FIRST instance it finds and it applies it, but it doesnt too it to anything else 
+   console.log ( document.querySelector("#one").style.color="red")
+
+   document.querySelector("h1").style.color="green"
+   document.querySelector ('.funky').style.color="orange"
+// when you want them all to match, use querySelectorAll
+
+var myFunkyElements = document.querySelectorAll ('.funky');
+
+for (var i=0; i<myFunkyElements.length; i++) {
+
+myFunkyElements[i].style.fontSize="24px"; 
+
+}
+
+for (var eachP of myFunkyElements) {
+    eachP.style.fontSize="24px"; 
+}
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+G<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 10 </title>
+</head>
+<body>
+    
+    <h1> Challenge 10 Functions </h1>
+
+<script>
+
+       var yourName = prompt("What's your name?", ''); 
+    var food =["apple", "pineapple", "pizza", "tacos"]; 
+
+ 
+          function greeting(name) { 
+        var greeting; 
+
+        if(name === null || name === `` ){
+         console.log ("You didn't give me a name"); 
+        }
+        
+        else {
+            console.log ( `Hello ${name}, good morning` ); 
+        }
+        return greeting; 
+    }
+
+
+
+
+function randomInt (min, max) {
+    return Math.floor ( ( max - min+1) * Math.random () ) + min; 
+
+}
+
+function hospitality (name, offer)  {
+
+console.log (greeting (name) ); 
+
+var randomOffer = offer[ randomInt (0, offer.length-1) ]; 
+// for ( var i=0; i<offer.length; i++) { 
+    console.log ( `${name}, would you like some ${randomOffer}?`);
+}
+
+
+
+ hospitality (yourName, food); 
+
+    
+ </script>
+</body>
+</html>
