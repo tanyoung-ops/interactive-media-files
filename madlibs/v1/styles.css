@@ -1,0 +1,93 @@
+
+
+
+
+form {
+  border-radius: 5px;
+  border-style: solid;
+  border-color:rgb(85, 7, 77); 
+  background-color: #fcfcfc;
+  padding: 26px;
+}
+
+label {
+
+    line-height: 1.5%;
+}
+
+h1 {
+
+    font-size:40px; 
+    font-family:Epilogue;
+    color:rgb(170, 17, 111);
+    text-align:center; 
+
+}
+
+
+
+h2 {
+    font-family:Epilogue;
+    color:rgb(21, 2, 2); 
+    text-align:center; 
+
+
+
+}
+
+input[type="text"]:focus {
+
+    border-radius: 5px;
+    border: 1px solid #D6D9DC;
+    outline: solid rgb(55, 14, 86);
+    box-shadow: 0 4px 8px 0 rgba(186, 67, 216, 0.2), 0 6px 20px 0 rgba(135, 23, 166, 0.19);
+}
+
+
+
+
+/* ahh this wont work */
+
+#submit {
+width:100%; 
+color:white; 
+background-color: rgb(41, 159, 174);
+margin:10px; 
+border:solid;
+border-color:rgb(8, 71, 105); 
+border-radius:5px; 
+cursor:pointer; 
+}
+
+
+
+
+#submit:hover {
+width:100%; 
+color:white; 
+background-color:rgb(170, 17, 111);
+margin:10px; 
+border:solid;
+/* border-color:rgb(8, 71, 105);  */
+border-radius:5px; 
+cursor:pointer; 
+}
+
+/* this works but applies styling to the form options? need to fix  */
+
+label[for] {
+
+    color:rgb(170, 17, 111);
+
+}
+
+
+body {
+    background-color:rgb(254, 248, 238); 
+    font-family:Epilogue;
+}
+
+
+
+
+
