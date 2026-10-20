@@ -1,7 +1,7 @@
 
 
-#question {
-    color:rgb(170, 17, 111);
+.question {
+color:rgb(170, 17, 111);
 font-size:18px; 
 
 }
@@ -24,8 +24,9 @@ label {
 
 h1 {
 
-    font-size:40px; 
-    font-family:Epilogue;
+    font-size:60px; 
+    font-family:Mystery Quest;
+;
     color:rgb(170, 17, 111);
     text-align:center; 
 
@@ -42,7 +43,7 @@ h1 {
 
 h2 {
     font-family:Epilogue;
-    color:rgb(21, 2, 2); 
+    color:rgb(110, 7, 77); 
     text-align:center; 
 
 
