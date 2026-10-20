@@ -1,12 +1,19 @@
 
 
+#question {
+    color:rgb(170, 17, 111);
+font-size:18px; 
 
+}
+input {
 
+    margin: 8px; 
+}
 form {
   border-radius: 5px;
   border-style: solid;
   border-color:rgb(85, 7, 77); 
-  background-color: #fcfcfc;
+  background-color: #fbfafb;
   padding: 26px;
 }
 
@@ -26,6 +33,13 @@ h1 {
 
 
 
+.questionContainer {
+    margin-bottom:20px;
+
+    
+}
+
+
 h2 {
     font-family:Epilogue;
     color:rgb(21, 2, 2); 
@@ -40,7 +54,7 @@ input[type="text"]:focus {
     border-radius: 5px;
     border: 1px solid #D6D9DC;
     outline: solid rgb(55, 14, 86);
-    box-shadow: 0 4px 8px 0 rgba(186, 67, 216, 0.2), 0 6px 20px 0 rgba(135, 23, 166, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(40, 152, 180, 0.789), 0 6px 20px 0 rgba(135, 23, 166, 0.19);
 }
 
 
@@ -77,13 +91,13 @@ cursor:pointer;
 
 label[for] {
 
-    color:rgb(170, 17, 111);
+    color:rgb(75, 3, 48);
 
 }
 
 
 body {
-    background-color:rgb(254, 248, 238); 
+    background-color:#f0bfd6; 
     font-family:Epilogue;
 }
 
