@@ -1,0 +1,136 @@
+
+
+.question {
+color:rgb(170, 17, 111);
+font-size:18px; 
+
+}
+input {
+
+    margin: 8px; 
+}
+form {
+  border-radius: 5px;
+  border-style: solid;
+  border-color:rgb(85, 7, 77); 
+  background-color: #fbfafb;
+  padding: 26px;
+}
+
+label {
+
+    line-height: 1.5%;
+}
+
+h1 {
+
+    font-size:60px; 
+    font-family:Mystery Quest;
+;
+    color:rgb(170, 17, 111);
+    text-align:center; 
+
+}
+
+
+
+.questionContainer {
+    margin-bottom:20px;
+
+    
+}
+
+
+h2 {
+    font-family:Epilogue;
+    color:rgb(110, 7, 77); 
+    text-align:center; 
+
+
+
+}
+
+input[type="text"]:focus {
+
+    border-radius: 5px;
+    border: 1px solid #D6D9DC;
+    outline: solid rgb(55, 14, 86);
+    box-shadow: 0 4px 8px 0 rgba(40, 152, 180, 0.789), 0 6px 20px 0 rgba(135, 23, 166, 0.19);
+}
+
+
+
+
+/* ahh this wont work */
+
+#submit {
+width:100%; 
+color:white; 
+background-color: rgb(41, 159, 174);
+margin:10px; 
+border:solid;
+border-color:rgb(8, 71, 105); 
+border-radius:5px; 
+cursor:pointer; 
+}
+
+
+
+
+#submit:hover {
+width:100%; 
+color:white; 
+background-color:rgb(170, 17, 111);
+margin:10px; 
+border:solid;
+/* border-color:rgb(8, 71, 105);  */
+border-radius:5px; 
+cursor:pointer; 
+}
+
+/* this works but applies styling to the form options? need to fix  */
+
+label[for] {
+
+    color:rgb(75, 3, 48);
+
+}
+
+
+body {
+    background-color:#f0bfd6; 
+    font-family:Epilogue;
+}
+
+
+
+/* TEXT STYLING */
+
+#error {
+    color: red;
+}
+
+/* OVERLAY STYLING */
+
+
+
+#madlib-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#madlib-overlay article {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 60%;
+    height: 70vh;
+    padding: 40px;
+}

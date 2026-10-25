@@ -1,0 +1,199 @@
+
+
+body {
+     
+    font-family:Epilogue;
+
+ background-color: rgb(34, 4, 45);
+    line-height: 1.5em;
+    margin: 0;
+
+background-image: url('images/Madlib-Background.png');
+
+}
+
+h1 {
+
+    font-size: 55px; 
+    font-family: Codystar;
+ color: rgb(34, 4, 45);
+    text-align:center; 
+
+}
+
+
+h2 {
+    color:rgb(184, 12, 118);
+
+}
+
+
+
+h3 {
+
+    font-family: Codystar;
+    color:rgb(184, 12, 118);
+    font-size: 35px; 
+
+     text-align:center; 
+
+}
+
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header, footer {
+    text-align: center;
+    height: 125px;
+    line-height: 1.5px;
+    display: grid;
+    place-content: center;
+   
+
+}
+
+footer {
+color: rgb(243, 245, 238);
+}
+
+main {
+    display: flex;
+    width: 900px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+section {
+    flex: 1;
+    padding: 40px;
+}
+
+#madlib-questions {
+    display: block;
+}
+
+
+
+
+#madlib-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+#madlib-overlay article {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+   
+
+
+    width: 60%;
+    height: 50vh;
+    padding: 40px;
+    border-style:solid; 
+    border-color:#fff;
+    border-radius:20px;
+
+}
+
+form {
+  border-radius: 20px;
+  border-style:double ;
+border-color:rgb(184, 12, 118);
+ background-color: rgb(243, 245, 238, 0.9);
+  padding: 26px;
+}
+
+
+form input, form label {
+    display: block;
+         margin-top:10px;
+
+}
+
+form input {
+    margin-bottom: 1em;
+    border-style:dotted;
+    border-radius: 5px; 
+    border-color:rgb(55, 14, 86);
+    
+}
+
+span {
+    font-weight: bold;
+    color:rgb(184, 12, 118);
+}
+
+#error {
+    margin-top:5px;
+    color:rgb(230, 211, 222);
+    background-color: rgb(184, 12, 118);
+}
+
+
+/* question and submit styling */
+
+
+label[for] {
+
+    color:rgb(184, 12, 118);
+
+}
+
+button[type="submit"] {
+font-family: Epilogue; 
+width:100%; 
+color:white; 
+background-color:rgb(55, 14, 86);
+margin:10px; 
+border:solid;
+border-color:rgb(55, 14, 86);
+border-radius:5px; 
+cursor:pointer; 
+padding:10px;
+font-size:15px;
+
+}
+
+
+
+button[type="submit"]:hover {
+font-family: Epilogue; 
+
+width:100%; 
+color:white; 
+background-color:rgb(184, 12, 118);
+border:solid;
+border-color:rgb(184, 12, 118);
+
+margin:10px; 
+cursor:pointer; 
+padding:10px;
+font-size:15px;
+
+}
+
+
+
+input[type="text"]:focus {
+
+    border-radius: 5px;
+    border: 1px solid #D6D9DC;
+    outline: solid rgb(55, 14, 86);
+    box-shadow: 0 4px 8px 0 rgba(40, 152, 180, 0.789), 0 6px 20px 0 rgba(135, 23, 166, 0.19);
+}
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- normalize css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+
+    <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+
+
+
+
+
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="styles.css"> 
+
+    <!-- link to JS -->
+
+    <script src="script.js" defer></script> 
+
+
+
+    <title>Runway MadLib</title>
+</head>
+
+<body>
+    <header>
+
+        <h1> Fashion MadLibs</h1>
+    </header>
+    <main>
+
+        <section id="'madlib-qustions">
+       <h2> Build your Runway-Ready Look!</h2>
+   
+        <form id="myForm">
+
+
+        <!-- Question One -->
+        <div class="questionContainer">
+            <label for="questionOne" class="question"> 1. Whose style inspires you? Think of a celebrity, character, or someone you know! </label> 
+        <br>
+
+        <input type="text" id ="questionOne" name="questionOne"> <br> 
+        </div>
+        
+        <!-- Question Two -->
+        
+        
+                <!-- <div class="questionContainer"> -->
+
+        <label for="questionTwo" class="question"> 2. Which of these shoes would you wear on the runway? </label> 
+
+                <br>
+    <input type="radio" id="shoes1" name="shoes" value="shoes1"> 
+
+        <label for="shoes1"> Mason Margiela Tabi's </label>  <br>
+
+
+        <input type="radio" id="shoes2" name="shoes" value="shoes2"> 
+
+        <label for="shoes2">Doc Martins</label>  <br> 
+
+
+        
+        <input type="radio" id="shoes3" name="shoes" value="shoes3"> 
+        <label for="shoes3">Knee High Converse </label> <br> 
+
+
+        
+        <input type="radio" id="shoes4" name="shoes" value="shoes4"> 
+        <label for="shoes4">Rick Owens Ramones </label> <br> 
+
+
+              
+        <input type="radio" id="shoes5" name="shoes" value="shoes5"> 
+        <label for="shoes5">24k gold Crocs </label> <br> 
+
+                </div>
+
+
+
+     <!-- Question Three Pattern -->
+
+ <div class="questionContainer">
+
+ <label for="questionThree" class="question"> 3. Select your favorite patterns </label>  <br> 
+
+     <input type="checkbox" id="pattern1" name="pattern1" value="polkaDots">
+     <label for="pattern1"> Polka Dots </label> <br> 
+
+
+         <input type="checkbox" id="pattern2" name="pattern2" value="gingnam">
+     <label for="pattern2"> Stripes </label>  <br> 
+        
+
+
+      <input type="checkbox" id="pattern3" name="pattern3" value="gingnam">
+     <label for="pattern3"> Gingnam </label>  <br> 
+        
+
+
+     <input type="checkbox" id="pattern4" name="pattern4" value="gingnam">
+     <label for="pattern4"> Florals </label>  <br> 
+        
+
+                </div>
+
+
+
+
+        <!-- Question Four Accesories -->
+
+     <div class="questionContainer">
+
+    <label for="questionFour" class="question"> 4.What is your favorite accesory? It can be one you either own or want to own! </label> 
+     <br>
+
+        <input type="text" id ="questionFour" name="questionFour"> <br> 
+        
+                </div>
+
+
+
+     <!-- Question Four Accesories -->
+
+
+          <div class="questionContainer">
+
+    <label for="questionFive" class="question"> 5. Type in an adjective that end with "-ous" </label> 
+       
+    <br>
+
+        <input type="text" id ="questionFive" name="questionFive">   <br> 
+        
+        
+
+                </div>
+
+
+
+                <input type="submit" name="submit" value="See your MadLib!" id="submit"/>
+
+</form>
+
+
+                <div id="error"> Testing </div>
+
+
+
+
+ <section id="madlib-overlay">
+            <article>
+
+                <!-- I added this div below, which will get the finished
+                 madlib. I put it in the div because I don't want to lose
+                 the close button below. -->
+                <div id="madlib">
+                    <!-- This will be replaced with the content from the script....
+                    <h2>MadLib Output</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci dolore, <span>${noun}</span> minus odit nemo natus at delectus consequatur voluptatibus et quas accusantium, cumque magnam iure repudiandae ipsa aliquid <span>${adjective}</span>, molestias quia? <span>${verb}</span> molestiae nam delectus aspernatur, aliquam laboriosam obcaecati, enim ad impedit doloremque amet similique! <span>${adverb}</span> nisi quisquam pariatur et nihil a vel? Consectetur in ducimus necessitatibus voluptatem repudiandae sequi quas voluptate dignissimos asperiores! Tempora ea qui quibusdam.</p>
+
+                    <img src="https://placecats.com/400/200" alt="Place a cat"> -->
+
+                </div>
+
+                <p><a href="#" id="close">Create a New Look</a></p>
+            </article>
+
+        </section>
+
+    </main> 
+    <footer> Designed by Toni Young</footer>
+</body>
+
+</html>

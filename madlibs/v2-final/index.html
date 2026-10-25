@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add normalize CSS and Google fonts -->
+
+    <!-- Add your custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+
+
+     <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <title>Runway MadLib</title>
+
+
+
+</head>
+<body>
+   
+    <main>
+
+        <section id="madlib-questions">
+            <form>
+
+                 <header>
+        <h1>Fashion Show MadLibs</h1>
+
+        <h2> Create Your Runway Ready Look! </h2>
+
+        <br>
+
+       
+    </header>
+
+
+                         <!-- Question 1 -->
+
+         
+                <label for="questionOne"> 1. Whose style inspires you? Think of a celebrity, character, or someone you know!</label>        
+                <input type="text" id="questionOne" >
+
+                     <!-- Question 2 -->
+      <label for="questionTwo" class="question"> 2. Type in the name of a style of shoes </label> 
+          <input type="text" id="questionTwo" >
+    
+     
+      
+ <label for="questionThree"> 3. Type in your favorite pattern </label>  
+
+     <input type="text" id="questionThree">
+
+     <!-- Question 4 -->
+     <label for="questionFour" class="question"> 4. Type in your comfort object! </label> 
+     <input type="text" id ="questionFour" name="questionFour"> 
+    
+        
+     
+     <!-- Question Five  -->
+
+         <label for="questionFive" class="question"> 5. Type in an adjective that end with "-ous" </label> 
+    <br>
+        <input type="text" id ="questionFive" name="questionFive">  
+        
+<!-- Submit Button      -->
+                <button type="submit">View Your Look</button>
+            </form>
+
+   
+            <div id="error"></div>
+        </section>
+
+        <!-- Overlay -->
+        
+        <section id="madlib-overlay">
+            <article>
+
+                <div id="madlib">
+                
+
+                </div>
+                <p><a href="#" id="close">Create a New Look</a></p>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p> Designed by Toni Young </p>
+    </footer>
+    
+</body>
+</html>
